@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/EwanValentine/shippy/user-service/proto/user"
+	pb "github.com/asaady/shippy/user-service/proto/user"
 	microclient "github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/cmd"
 	"golang.org/x/net/context"

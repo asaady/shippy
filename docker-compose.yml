@@ -37,11 +37,11 @@ services:
     environment:
       MICRO_ADDRESS: ":50051"
       MICRO_REGISTRY: "mdns"
-      DB_NAME: "postgres"
-      DB_HOST: "database"
+      DB_NAME: "shippy"
+      DB_HOST: "datastore"
       DB_PORT: "5432"
       DB_USER: "postgres"
-      DB_PASSWORD: "postgres"
+      DB_PASSWORD: "3@141592Pi"
     depends_on:
       - database
 
